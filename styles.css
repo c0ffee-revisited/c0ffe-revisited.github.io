@@ -1,5 +1,13 @@
 body{
     margin: 0;
-    background: purple;
+    background: rgb(49, 0, 49);
     text-align: center;
+}
+
+h1{
+    color: whitesmoke;
+}
+
+p {
+    color: whitesmoke;
 }
