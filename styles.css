@@ -1,4 +1,6 @@
 body{
+    padding-top: 60px;
+    padding-bottom: 40px;
     margin: 0;
     background: rgb(49, 0, 49);
     text-align: center;
@@ -8,6 +10,18 @@ body{
     margin-bottom: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.container{width: 80%; margin: 0 auto; /* Center the DIV horizontally */}
+.fixed-header, .fixed-footer{
+    width: 100%;
+    position: fixed;        
+    background: hwb(0 0% 100% / 0);
+    padding: 10px 0;
+    color: #fff;}
+.fixed-header{top: 0;}
+.fixed-footer{bottom: 0;}    
+.container p{line-height: 200px; /* Create scrollbar to test positioning */}
+
 
 h1 {color: whitesmoke;}
 h2 {color: whitesmoke;}
