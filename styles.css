@@ -29,7 +29,29 @@ body{
         
 }
 
-
+a:link {
+    color: turquoise;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color:dodgerblue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color:crimson
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color:firebrick;
+    background-color: transparent;
+    text-decoration: underline;
+  }
 
 
 h1 {color: whitesmoke;}
