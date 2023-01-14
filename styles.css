@@ -12,7 +12,7 @@ header{
     top: 0%;
 }
 
-/* Header with multiple img: Home - Projects - About - Contact  */
+/* (*=General) Header with multiple img: Home - Projects - About - Contact  */
 *{box-sizing: border-box;}
 .column {
     float: left;
@@ -28,20 +28,22 @@ header{
 
 /*HTML Body Settings*/
 body{
+    display: flex;
+    flex-direction: column;  
+    min-height: 100vh;
+    background: rgb(49, 0, 49);
+    align-items: center;
+    text-align: center;
+
     padding-top: 0px;
     padding-bottom: 0px;
-    min-height: 100vh;
+    
     margin: 0;
-    background: rgb(49, 0, 49);
-    text-align: center;
     margin-right: 9px;
     margin-left: 9px;
     margin-top: 0px;
     margin-bottom: 0px;
-    display: flex;
-    flex-direction: column;
-    
-
+  
     Overflow-x:scroll;
     Overflow-y:scroll; 
         
