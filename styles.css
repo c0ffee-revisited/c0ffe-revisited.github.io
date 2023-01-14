@@ -54,19 +54,19 @@ a:link {
     text-decoration: none;
   }
   
-  a:visited {
+a:visited {
     color:dodgerblue;
     background-color: transparent;
     text-decoration: none;
   }
   
-  a:hover {
+a:hover {
     color:crimson
     background-color: transparent;
     text-decoration: underline;
   }
   
-  a:active {
+a:active {
     color:firebrick;
     background-color: transparent;
     text-decoration: underline;
