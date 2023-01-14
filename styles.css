@@ -63,8 +63,6 @@ a:visited {
   
 a:hover {
     color:crimson
-    background-color: transparent;
-    text-decoration: underline;
   }
   
 a:active {
