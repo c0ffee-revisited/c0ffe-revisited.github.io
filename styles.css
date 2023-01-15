@@ -98,6 +98,8 @@ p {
 table {
   max-width: 100%;
   min-height: fit-content;
+  border: 0px;
+  border-color: transparent;
 }
 
 
