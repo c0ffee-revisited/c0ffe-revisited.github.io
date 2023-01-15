@@ -100,12 +100,13 @@ table {
   min-height: fit-content;
   border: 0px;
   border-color: transparent;
+  color: lightgray;
 }
 
 
 /*Footer Settings*/
 .footer {
-    position: absolute;
+    position:absolute;
     width: 100%;
     bottom: 0;
     margin: 0;
@@ -120,5 +121,6 @@ table {
     font-family: Arial, Helvetica, sans-serif;
     font-size:small;
     font-weight: 200;
+    f
     
     }
