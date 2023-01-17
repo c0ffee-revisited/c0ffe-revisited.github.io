@@ -35,7 +35,7 @@ body{
     text-align: center;
     
     /*min-height: 100vh;*/
-    background: rgb(49, 0, 49);
+    background: rgb(41, 0, 41);
     
 
     padding-top: 0px;
@@ -103,6 +103,15 @@ table {
   border-color: transparent;
   color: lightgray;
 }
+
+
+#fillemptyspace {
+display: flex;
+flex-flow: column;
+flex: 1,1,auto;
+border: 0px;
+}
+
 
 
 /*Footer Settings*/
