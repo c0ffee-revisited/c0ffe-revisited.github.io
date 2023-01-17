@@ -104,7 +104,7 @@ table {
   color: lightgray;
 }
 
-
+/*EMPYT SPACE DIV*/
 #fillemptyspace {
 display: flex;
 flex-flow: column;
