@@ -107,37 +107,14 @@ table {
 /*EMPYT SPACE DIV*/
 
 .emptyspacecontainer {
-display: contents;
+  display: contents;
 }
 
-.fillemptyspace {
-display: flex;
-flex-flow: column;
-flex: 1 1 auto;
-border: 0px;
-min-height: 10%;
-max-height: 100%;
-}
-
-.box {
+.emptyspacecontainer .fillemptyspace {
   display: flex;
   flex-flow: column;
-  height: 100%;
-}
-.box .row {
-  border: 0px;
-}
-.box .row.header {
-  flex: 0 1 auto;
-}
-.box .row.content {
   flex: 1 1 auto;
-}
-.box .row.footer {
-  flex: 0 1 40px;
-}
-.box-container {
-  display: contents;
+  border: 1px dotted #0313fc;
 }
 
 
