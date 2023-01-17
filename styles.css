@@ -105,6 +105,11 @@ table {
 }
 
 /*EMPYT SPACE DIV*/
+
+.emptyspacecontainer {
+display: contents;
+}
+
 .fillemptyspace {
 display: flex;
 flex-flow: column;
