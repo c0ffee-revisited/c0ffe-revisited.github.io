@@ -108,7 +108,7 @@ table {
 .fillemptyspace {
 display: flex;
 flex-flow: column;
-flex: 1,1,auto;
+flex: 1 1 auto;
 border: 0px;
 }
 
