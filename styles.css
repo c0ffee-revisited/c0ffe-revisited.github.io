@@ -119,6 +119,27 @@ min-height: 10%;
 max-height: 100%;
 }
 
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+.box .row {
+  border: 1px dotted #0313fc;
+}
+.box .row.header {
+  flex: 0 1 auto;
+}
+.box .row.content {
+  flex: 1 1 auto;
+}
+.box .row.footer {
+  flex: 0 1 40px;
+}
+.box-container {
+  display: contents;
+}
+
 
 
 /*Footer Settings*/
