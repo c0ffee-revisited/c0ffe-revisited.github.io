@@ -6,7 +6,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(41, 0, 41);
+    background-color: rgb(40, 0, 40);
 }
 .sticky-header{
     top: 0%;
@@ -37,7 +37,7 @@ body{
     height: 100%;
     
     /*min-height: 100vh;*/
-    background: rgb(41, 0, 41);
+    background: rgb(40, 0, 40);
     
 
     padding-top: 0px;
@@ -63,9 +63,9 @@ body{
   height:100vh;
   width: 100vw;
 }
-.box.row {
-  /*border: 1px dotted #0313fc;*/
-}
+/*.box.row {
+  border: 1px dotted #0313fc;
+}*/
 .box .row.header {
   flex: 0 1 auto;
   position: sticky;
@@ -74,7 +74,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(41, 0, 41);
+  background-color: rgb(40, 0, 40);
   height: 79;
 }
 .box .row.content {
@@ -158,7 +158,7 @@ table {
     align-items:center;
     align-content: center;
     justify-content:center;
-    background-color:rgba(41, 41, 41, 0.89);
+    background-color:rgba(40, 40, 40, 0.89);
     
     font-family: Arial, Helvetica, sans-serif;
     font-size:small;
