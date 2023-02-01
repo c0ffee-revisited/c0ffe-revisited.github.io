@@ -1,0 +1,167 @@
+/*HEADER General Settings*/
+header{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(40, 0, 40);
+}
+.sticky-header{
+    top: 0%;
+}
+
+/* (*=General) Header with multiple img: Home - Projects - About - Contact  */
+*{box-sizing: border-box;}
+.column {
+    float: left;
+    width: 25%;
+    padding: 3px;    
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/*BODY Settings*/
+body{
+    display: flex;
+    flex-direction:column;  
+    /*justify-content: center;
+    align-items: center;
+    text-align: center;*/
+
+    height: 100%;
+    
+    /*min-height: 100vh;*/
+    background: rgb(40, 0, 40);
+    
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+    margin: 0;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+  
+    Overflow-x:scroll;
+    Overflow-y:scroll;
+}
+
+/*BOX Settings*/
+.box {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  width: 100vw;
+}
+/*.box.row {
+  border: 1px dotted #0313fc;
+}*/
+.box .row.header {
+  flex: 0 1 auto;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(40, 0, 40);
+  height: 79;
+}
+.box .row.content {
+  flex: 1 1 auto;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  min-width: auto;
+}
+.box .row.footer {
+  flex: 0 1 auto;
+  min-height: fit-content;
+  border-color: 10px, #0313fc;
+}
+.box-container {
+  display: contents;
+}
+
+
+/*<hr> Settings*/
+hr {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/*TEXT/Link Colours*/
+a:link {
+    color: turquoise;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:visited {
+    color:dodgerblue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+a:hover {
+    color:crimson
+  }
+  
+a:active {
+    color:firebrick;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+h1 {color: whitesmoke;}
+h2 {color: white;}
+h3 {color: white;}
+h4 {color: white;}
+h5 {color: white;}
+h6 {color: white;}
+p {
+  color: whitesmoke;
+  max-width: 1400px;
+}
+
+/*Table Settings*/
+table {
+  max-width: 100%;
+  min-height: fit-content;
+  border: 0px;
+  border-color: transparent;
+  color: lightgray;
+}
+
+
+/*Footer Settings*/
+.footer {
+    /*position:relative;*/
+    width: 100%;
+    bottom: 0;
+    margin: 0,0;
+    padding: 0,0,0,0;
+    height:fit-content;
+
+    display: flex;
+    align-items:center;
+    align-content: center;
+    justify-content:center;
+    background-color:rgba(40, 40, 40, 0.89);
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:small;
+    font-weight: 200;
+    }
+    
