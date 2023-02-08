@@ -1,0 +1,369 @@
+
+
+body{ 
+  background-color:white;
+  color:rgb(29, 29, 29);
+  margin: 0%;
+}
+  #page{
+    
+  background-color: rgba(248, 248, 255, 0); 
+    
+  }
+    #header{
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      
+      margin-top: 3px;
+      margin-bottom: 3px;
+      padding: 0;
+    }
+      #header-title{
+        display: flex;
+        flex: 1 1 auto;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        font-family:Segoe UI,sans-serif;
+        font-size: 24px;
+        font-kerning:unset;
+        font-weight:375;
+        line-height: 0px;
+        
+        color: rgba(29, 29, 29, 0.925);
+
+        margin-top: 33px;
+        margin-bottom: 4px;
+        
+      }
+      #nav{
+            margin-top: 0%;       
+            padding-bottom: 23px;
+            min-width:100%;
+      }
+        .navbar {
+          display: flex;
+          flex: 1 1 auto;
+          align-content: center;
+          justify-content: center;
+          text-align: center;
+          max-width: 100%;
+          background-color: rgba(51, 51, 51, 0);
+         
+          
+        }
+          .navbar a {
+            float: left;
+            font-family: Segoe UI, sans-serif;
+            font-size: 29px;
+            color:rgb(29, 29, 29);
+            font-weight:1000;
+            font-kerning: unset;
+            text-align: center;
+            margin-right: 21px;
+            text-decoration: none;
+          }
+
+            .dropdown {
+              
+              overflow:visible;
+              font-family: Segoe UI, sans-serif;
+              margin-right: 17px;
+            }
+
+            .dropdown .dropbtn {
+              border: none;
+              outline: none;
+              font-size: 29px;  
+              color:rgb(29, 29, 29);
+              font-weight:1000;
+              font-kerning: unset;
+              background-color: inherit;
+              font-family: inherit;
+              margin: 0;
+            }
+
+            .navbar a:hover, .dropdown:hover .dropbtn {
+              background-color: rgba(255, 0, 0, 0);
+              color:rgb(75, 0, 75);
+
+            }
+
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: rgb(29, 29, 29);
+              min-width: fit-content;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+            }
+
+            .dropdown-content a {
+              float: none;
+              font-size:large;
+              font-weight:bold;
+              color: ghostwhite;
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+              text-align: left;
+            }
+
+            .dropdown-content a:hover {
+              background-color: rgba(70, 70, 70, 0.7);
+              color: ghostwhite;
+            }
+
+            .dropdown:hover .dropdown-content {
+              display: block;
+            }
+
+  #content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    
+    font-family:'Baskerville Old Face', serif;
+    font-size:14.5pt;
+    font-weight:normal;
+    line-height: 1.4;
+    word-spacing: 1.5pt;
+    
+    margin-top: 33px;
+  }
+  
+    #content-item1{
+      background-color: rgba(0, 0, 0, 0);
+      border:none;
+      margin: 1px;
+    }
+    #content-item2{
+      background-color: rgba(0, 0, 0, 0);
+      
+      text-align: center;
+      max-width: 1500px;
+      min-width: auto;
+
+      margin-top: 37px;
+      margin-left: 14px;
+      margin-bottom: 0;
+      margin-right: 14px;
+      
+    }
+
+    
+    
+  #footer{
+    background-color: rgba(77, 77, 77, 0.77);
+    text-align: center;
+    
+    font-family:serif;
+    font-weight:lighter;
+    font-size:medium;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 14px;
+    padding-bottom: 2px;
+    margin-top: 200px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+/*OLD
+
+header{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(40, 0, 40);
+}
+.sticky-header{
+    top: 0%;
+}
+
+(*=General) Header with multiple img: Home - Projects - About - Contact 
+*{box-sizing: border-box;}
+.column {
+    float: left;
+    width: 25%;
+    padding: 3px;    
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+body{
+    display: flex;
+    flex-direction:column;  
+    /*justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    height: 100%;
+    
+    
+    background: rgb(40, 0, 40);
+    
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+    margin: 0;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+  
+    Overflow-x:scroll;
+    Overflow-y:scroll;
+}
+
+
+.box {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  width: 100vw;
+}
+
+.box .row.header {
+  flex: 0 1 auto;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(40, 0, 40);
+  height: 79;
+}
+.box .row.content {
+  flex: 1 1 auto;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  min-width: auto;
+}
+.box .row.footer {
+  flex: 0 1 auto;
+  min-height: fit-content;
+  border-color: 10px, #0313fc;
+}
+.box-container {
+  display: contents;
+  overflow: auto;
+}
+
+
+
+hr {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+a:link {
+   
+  color: turquoise;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:visited {
+    color:dodgerblue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+a:hover {
+    color:crimson
+  }
+  
+a:active {
+    color:firebrick;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+h1 {color: whitesmoke;}
+h2 {color: white;}
+h3 {color: white;}
+h4 {color: white;
+    overflow-x: auto;}
+h5 {color: white;}
+h6 {color: white;}
+p {
+  font-size: larger;
+  color: whitesmoke;
+  max-width: 1400px;
+}
+
+
+table {
+  max-width: 100%;
+  min-height: fit-content;
+  border: 0px;
+  border-color: transparent;
+  color: lightgray;
+}
+
+
+
+.footer {
+    position:relative;
+    width: 100%;
+    bottom: 0;
+    margin: 0,0;
+    padding: 0,0,0,0;
+    height:fit-content;
+
+    display: flex;
+    align-items:center;
+    align-content: center;
+    justify-content:center;
+    background-color:rgba(40, 40, 40, 0.89);
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    font-weight: 300;
+    }
+    
+
+
+
+    */
