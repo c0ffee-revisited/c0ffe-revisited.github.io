@@ -7,21 +7,21 @@ body{
 }
   #page{
     
-    margin: 0%;
+  background-color: rgba(248, 248, 255, 0); 
     
   }
     #header{
       display: flex;
       flex-direction: column;
       align-content: center;
-      max-width: 100%;
+      
       margin-top: 3px;
       margin-bottom: 3px;
       padding: 0;
     }
       #header-title{
         display: flex;
-        flex: 0 1 auto;
+        flex: 1 1 auto;
         text-align: center;
         align-content: center;
         justify-content: center;
@@ -33,14 +33,14 @@ body{
         
         color: rgba(29, 29, 29, 0.925);
 
-        margin-top: 4px;
+        margin-top: 33px;
         margin-bottom: 4px;
         
       }
       #nav{
             margin-top: 0%;       
-            
-            min-width:100vw;
+            padding-bottom: 23px;
+            min-width:100%;
       }
         .navbar {
           display: flex;
@@ -48,9 +48,9 @@ body{
           align-content: center;
           justify-content: center;
           text-align: center;
-          min-width: auto;
-          overflow: hidden;
+          max-width: 100%;
           background-color: rgba(51, 51, 51, 0);
+         
           
         }
           .navbar a {
@@ -129,9 +129,9 @@ body{
     font-size:14.5pt;
     font-weight:normal;
     line-height: 1.4;
-    word-spacing:7px;
+    word-spacing: 1.5pt;
     
-    margin-top: 30px;
+    margin-top: 33px;
   }
   
     #content-item1{
@@ -146,7 +146,10 @@ body{
       max-width: 1500px;
       min-width: auto;
 
-      margin-top: 19px;
+      margin-top: 37px;
+      margin-left: 14px;
+      margin-bottom: 0;
+      margin-right: 14px;
       
     }
 
@@ -161,9 +164,9 @@ body{
     font-size:medium;
     margin-left: 0%;
     margin-right: 0%;
-    padding-top: 9px;
+    padding-top: 14px;
     padding-bottom: 2px;
-    margin-top: 150px;
+    margin-top: 200px;
   }
 
 
