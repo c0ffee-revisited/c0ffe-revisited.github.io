@@ -1,4 +1,200 @@
-/*HEADER General Settings*/
+
+
+body{ 
+  background-color:white;
+  color:rgb(29, 29, 29);
+  margin-top: 0%;
+}
+  #page{
+    display: flex;
+    flex-direction: column;
+    align-content: center; 
+    margin-top: 0%;
+    
+  }
+    #header{
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      max-width: 100%;
+      margin-top: 0%;
+      margin-bottom: 0%;
+      padding: 0;
+    }
+      #header-title{
+        display: flex;
+        flex: 0 1 auto;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        font-family:Segoe UI,sans-serif;
+        font-size: 24px;
+        font-kerning:auto;
+        font-weight:350;
+        
+        color: rgba(29, 29, 29, 0.925);
+
+        
+      }
+      #nav{
+            margin-top: 0%;       
+
+      }
+        .navbar {
+          display: flex;
+          flex: 1 1 auto;
+          align-content: center;
+          justify-content: center;
+          text-align: center;
+          min-width: auto;
+          overflow: hidden;
+          background-color: rgba(51, 51, 51, 0);
+          
+        }
+          .navbar a {
+            float: left;
+            font-family: Segoe UI, sans-serif;
+            font-size: 27px;
+            color:rgb(29, 29, 29);
+            font-weight:bolder;
+            text-align: center;
+            margin-right: 21px;
+            text-decoration: none;
+          }
+
+            .dropdown {
+              
+              overflow:visible;
+              font-family: Segoe UI, sans-serif;
+              margin-right: 17px;
+            }
+
+            .dropdown .dropbtn {
+              border: none;
+              outline: none;
+              font-size: 27px;  
+              color:rgb(29, 29, 29);
+              font-weight:bolder;
+              
+              background-color: inherit;
+              font-family: inherit;
+              margin: 0;
+            }
+
+            .navbar a:hover, .dropdown:hover .dropbtn {
+              background-color: rgba(255, 0, 0, 0);
+              color:rgb(0, 0, 0, 10);
+
+            }
+
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: rgb(29, 29, 29);
+              min-width: fit-content;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+            }
+
+            .dropdown-content a {
+              float: none;
+              font-size:large;
+              font-weight:bold;
+              color: ghostwhite;
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+              text-align: left;
+            }
+
+            .dropdown-content a:hover {
+              background-color: rgba(70, 70, 70, 0.7);
+              color: ghostwhite;
+            }
+
+            .dropdown:hover .dropdown-content {
+              display: block;
+            }
+
+  #content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    margin-top: 30px;
+    font-family:'Baskerville Old Face', serif;
+    font-size:larger;
+    font-weight: 100;
+    line-height: 1.3;
+    word-spacing:7px;
+  }
+    #content-item1{
+      background-color: rgba(0, 0, 0, 0);
+      border:none;
+      margin: 10px;
+    }
+    #content-item2{
+      background-color: rgba(0, 0, 0, 0);
+      
+      text-align: center;
+      max-width: 1500px;
+      min-width: auto;
+
+      margin-top: 10px;
+      
+    }
+
+#padding-left{
+  background-color: aqua;
+  border-style:dashed;
+  border-color: rgb(242, 255, 121);
+  
+}
+#padding-right{
+  background-color: aqua;
+  border-style:dashed;
+  border-color: rgb(242, 255, 121);
+}
+
+
+#footer{
+  background-color: rgba(77, 77, 77, 0.74);
+  text-align: center;
+  margin-top: 111px;
+  font-family:serif;
+  font-weight:lighter;
+  font-size:medium;
+  margin-left: 0%;
+  margin-right: 0%;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+/*OLD
+
 header{
     position: sticky;
     width: 100%;
@@ -12,7 +208,7 @@ header{
     top: 0%;
 }
 
-/* (*=General) Header with multiple img: Home - Projects - About - Contact  */
+(*=General) Header with multiple img: Home - Projects - About - Contact 
 *{box-sizing: border-box;}
 .column {
     float: left;
@@ -26,17 +222,17 @@ header{
 }
 
 
-/*BODY Settings*/
+
 body{
     display: flex;
     flex-direction:column;  
     /*justify-content: center;
     align-items: center;
-    text-align: center;*/
+    text-align: center;
 
     height: 100%;
     
-    /*min-height: 100vh;*/
+    
     background: rgb(40, 0, 40);
     
 
@@ -54,7 +250,7 @@ body{
     Overflow-y:scroll;
 }
 
-/*BOX Settings*/
+
 .box {
   display: flex;
   flex-flow: column;
@@ -63,9 +259,7 @@ body{
   height:100vh;
   width: 100vw;
 }
-/*.box.row {
-  border: 1px dotted #0313fc;
-}*/
+
 .box .row.header {
   flex: 0 1 auto;
   position: sticky;
@@ -91,19 +285,21 @@ body{
 }
 .box-container {
   display: contents;
+  overflow: auto;
 }
 
 
-/*<hr> Settings*/
+
 hr {
   width: 100%;
   margin-left: 0;
   margin-right: 0;
 }
 
-/*TEXT/Link Colours*/
+
 a:link {
-    color: turquoise;
+   
+  color: turquoise;
     background-color: transparent;
     text-decoration: none;
   }
@@ -127,15 +323,17 @@ a:active {
 h1 {color: whitesmoke;}
 h2 {color: white;}
 h3 {color: white;}
-h4 {color: white;}
+h4 {color: white;
+    overflow-x: auto;}
 h5 {color: white;}
 h6 {color: white;}
 p {
+  font-size: larger;
   color: whitesmoke;
   max-width: 1400px;
 }
 
-/*Table Settings*/
+
 table {
   max-width: 100%;
   min-height: fit-content;
@@ -145,9 +343,9 @@ table {
 }
 
 
-/*Footer Settings*/
+
 .footer {
-    /*position:relative;*/
+    position:relative;
     width: 100%;
     bottom: 0;
     margin: 0,0;
@@ -161,7 +359,11 @@ table {
     background-color:rgba(40, 40, 40, 0.89);
     
     font-family: Arial, Helvetica, sans-serif;
-    font-size:small;
-    font-weight: 200;
+    font-size: x-small;
+    font-weight: 300;
     }
     
+
+
+
+    */
