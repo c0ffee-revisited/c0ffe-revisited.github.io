@@ -12,8 +12,9 @@ hr{
   width: 33%;
 }
 h1{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 27pt;
+  font-family: "Questrial";
+  font-size: 29pt;
+  font-weight: bolder;
   font-kerning: unset;
 }
 
@@ -51,7 +52,7 @@ ul{
   
   top: 0;
   width: 100%;
-  height: fit-content;
+  
   
   
 }
@@ -61,8 +62,9 @@ ul{
   display: inline-flex;
   height: 100%;
   color: var(--white);
-  font-family: "monospace";
-  font-weight: 100;
+  font-family: "Questrial";
+  color: black;
+  font-weight: 800;
   font-size: 24pt;
   margin-left: 10px;
   padding: 10px;
@@ -71,30 +73,34 @@ ul{
 /* Nav menu */
 .nav{
   display: flex;
+  flex: 1 1 auto;
   justify-content: center;
+  align-content: center;
   width: 100%;
-  height: 100%;
+  height:fit-content;
   position: relative;
   background-color: black;
   overflow: hidden;
-  
-  
- 
+   
 
+}
+.menu{
+  margin: 0%;
+  padding: 0%;
+  
 }
 .menu a{
   display: flex;
   justify-content: center;
+  height: 100%;
   padding: 30px;
   color: grey;
-  
-
 
   
   
 }
 .menu a:hover{
-  background-color: rgba(128, 128, 128, 0.507);
+  background-color: rgba(128, 128, 128, 0.222);
 }
 .nav{
   max-height: 0;
@@ -125,6 +131,7 @@ ul{
   position: absolute;
   transition: all .2s ease-out;
   width: 100%;
+  
 }
 .hamb-line::before{
   top: 5px;
@@ -162,31 +169,27 @@ ul{
       float: right;
       width: fit-content;
       background-color: transparent;
-      
-      
-    
-  }
+    }
   .menu li{
       float: left;
-    
-  }
+      
+      
+    }
   .menu a:hover{
       background-color: transparent;
       color: rgba(128, 128, 128, 0.514);
-  }
+    }
   .hamb{
       display: none;
-  }
+    }
 }
-/* Sub nav */
+/* Sub nav 
 .subnav-content {
   background-color:  rgba(245, 245, 245, 0.205);
   width: 100%;
   z-index: 1;
   padding: 20px 0 ;
   display: none;
-
-
 }
 .subnav-content a {
   color: black;
@@ -198,9 +201,14 @@ ul{
 }
 .subnav:hover .subnav-content {
   display: block;
+  
+  overflow-x: scroll;
+
 }
+*/
+/*
 @media (min-width: 768px) {
-  /* Sub nav */
+  /* Sub nav 
   .subnav-content {
       padding: 20px 0 ;
       display: none;
@@ -210,7 +218,7 @@ ul{
       color: white;
   }
 }
-
+*/
 
 
 
@@ -218,6 +226,7 @@ ul{
   #content-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     max-width: 100%;
     
@@ -229,16 +238,20 @@ ul{
     line-height: 1.4;
     word-spacing: 1.5pt;
     
-    margin-top: 170px;
+    
   }
+  
   
     #content-item1{
       background-color: rgba(0, 0, 0, 0);
       border:none;
-      margin: 1px;
+      margin: 9px;
       text-align: center;
       max-width: 1200px;
+      margin-top: 43px;
+      
     }
+    
     #content-item2{
       background-color: rgba(0, 0, 0, 0);
       
@@ -253,7 +266,15 @@ ul{
       
     }
 
-    
+    #content-item3{
+      background-color: rgba(0, 0, 0, 0);
+      border:none;
+      margin: 0px;
+      padding: 0%;
+      text-align: center;
+      max-width: 1400px;
+      
+    }
     
   #footer{
     background-color: rgba(77, 77, 77, 0.77);
