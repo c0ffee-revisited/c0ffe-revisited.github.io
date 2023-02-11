@@ -1,5 +1,6 @@
 #fcf-form {
   display:block;
+  
 }
 
 .fcf-body {
@@ -16,7 +17,9 @@
   padding-bottom: 10px;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
-  max-width: 100%;
+  max-width: 93%;
+
+
 }
 
 .fcf-form-group {
@@ -34,7 +37,7 @@
   -ms-flex-align: stretch;
   align-items: stretch;
   width: 379px;
-  max-width: 99%;
+  max-width: 93%;
 
   
 }
