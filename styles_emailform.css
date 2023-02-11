@@ -19,14 +19,14 @@
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   max-width: 100%;
-
+  
 
 }
 
 .fcf-form-group {
   margin-bottom: 1rem;
+  max-width: 100%;
 
-  
 }
 
 .fcf-input-group {
