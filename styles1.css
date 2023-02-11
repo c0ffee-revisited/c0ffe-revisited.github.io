@@ -3,7 +3,13 @@
 body{ 
   background-color:white;
   color:rgb(29, 29, 29);
-  margin: 0%;
+  margin: 0;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  Overflow-x:scroll;
+  Overflow-y:scroll;
 }
 #page{
   background-color: rgba(248, 248, 255, 0); 
@@ -81,13 +87,10 @@ ul{
   position: relative;
   background-color: black;
   overflow: hidden;
-   
-
 }
 .menu{
   margin: 0%;
   padding: 0%;
-  
 }
 .menu a{
   display: flex;
@@ -95,9 +98,6 @@ ul{
   height: 100%;
   padding: 30px;
   color: grey;
-
-  
-  
 }
 .menu a:hover{
   background-color: rgba(128, 128, 128, 0.222);
@@ -105,7 +105,6 @@ ul{
 .nav{
   max-height: 0;
   transition: max-height .5s ease-out;
-  
 }
 /* Menu Icon */
 .hamb{
@@ -131,7 +130,6 @@ ul{
   position: absolute;
   transition: all .2s ease-out;
   width: 100%;
-  
 }
 .hamb-line::before{
   top: 5px;
@@ -172,8 +170,6 @@ ul{
     }
   .menu li{
       float: left;
-      
-      
     }
   .menu a:hover{
       background-color: transparent;
@@ -197,13 +193,10 @@ ul{
   padding: 0;
   margin: 10px 0;
   text-align: center;
-
 }
 .subnav:hover .subnav-content {
   display: block;
-  
   overflow-x: scroll;
-
 }
 */
 /*
@@ -220,32 +213,23 @@ ul{
 }
 */
 
-
-
-
   #content-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    
-    
 
     font-family:'Baskerville Old Face', serif;
     font-size:16pt;
     font-weight:normal;
     line-height: 1.4;
     word-spacing: 1.5pt;
-    
-    
   }
-  
-  
     #content-item1{
       background-color: rgba(0, 0, 0, 0);
       border:none;
-      margin: 9px;
+      margin: 7px;
       text-align: center;
       max-width: 1200px;
       margin-top: 43px;
@@ -254,16 +238,13 @@ ul{
     
     #content-item2{
       background-color: rgba(0, 0, 0, 0);
-      
       text-align: center;
       max-width: 1500px;
       min-width: auto;
-
       margin-top: 37px;
       margin-left: 14px;
       margin-bottom: 0;
       margin-right: 14px;
-      
     }
 
     #content-item3{
@@ -273,7 +254,6 @@ ul{
       padding: 0%;
       text-align: center;
       max-width: 1400px;
-      
     }
     
   #footer{
@@ -290,201 +270,3 @@ ul{
     margin-top: 200px;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-/*OLD
-
-header{
-    position: sticky;
-    width: 100%;
-    top: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(40, 0, 40);
-}
-.sticky-header{
-    top: 0%;
-}
-
-(*=General) Header with multiple img: Home - Projects - About - Contact 
-*{box-sizing: border-box;}
-.column {
-    float: left;
-    width: 25%;
-    padding: 3px;    
-}
-.row::after{
-    content: "";
-    clear: both;
-    display: table;
-}
-
-
-
-body{
-    display: flex;
-    flex-direction:column;  
-    /*justify-content: center;
-    align-items: center;
-    text-align: center;
-
-    height: 100%;
-    
-    
-    background: rgb(40, 0, 40);
-    
-
-    padding-top: 0px;
-    padding-bottom: 0px;
-    
-    margin: 0;
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-
-  
-    Overflow-x:scroll;
-    Overflow-y:scroll;
-}
-
-
-.box {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  height:100vh;
-  width: 100vw;
-}
-
-.box .row.header {
-  flex: 0 1 auto;
-  position: sticky;
-  width: 100%;
-  top: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(40, 0, 40);
-  height: 79;
-}
-.box .row.content {
-  flex: 1 1 auto;
-  align-content: center;
-  justify-content: center;
-  text-align: center;
-  min-width: auto;
-}
-.box .row.footer {
-  flex: 0 1 auto;
-  min-height: fit-content;
-  border-color: 10px, #0313fc;
-}
-.box-container {
-  display: contents;
-  overflow: auto;
-}
-
-
-
-hr {
-  width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-}
-
-
-a:link {
-   
-  color: turquoise;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-a:visited {
-    color:dodgerblue;
-    background-color: transparent;
-    text-decoration: none;
-  }
-
-a:hover {
-    color:crimson
-  }
-  
-a:active {
-    color:firebrick;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-
-h1 {color: whitesmoke;}
-h2 {color: white;}
-h3 {color: white;}
-h4 {color: white;
-    overflow-x: auto;}
-h5 {color: white;}
-h6 {color: white;}
-p {
-  font-size: larger;
-  color: whitesmoke;
-  max-width: 1400px;
-}
-
-
-table {
-  max-width: 100%;
-  min-height: fit-content;
-  border: 0px;
-  border-color: transparent;
-  color: lightgray;
-}
-
-
-
-.footer {
-    position:relative;
-    width: 100%;
-    bottom: 0;
-    margin: 0,0;
-    padding: 0,0,0,0;
-    height:fit-content;
-
-    display: flex;
-    align-items:center;
-    align-content: center;
-    justify-content:center;
-    background-color:rgba(40, 40, 40, 0.89);
-    
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: x-small;
-    font-weight: 300;
-    }
-    
-
-
-
-    */
