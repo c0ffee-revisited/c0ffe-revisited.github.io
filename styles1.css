@@ -42,7 +42,7 @@ ul{
   list-style: none;
   font-family: "Questrial";
   font-weight: bolder;
-  font-size: 21pt;
+  font-size: 20pt;
   
   
 }
@@ -221,7 +221,7 @@ ul{
     max-width: 100%;
 
     font-family:'Baskerville Old Face', serif;
-    font-size:12pt;
+    font-size: 12pt;
     font-weight:normal;
     line-height: 1.4;
     word-spacing: 1.5pt;
