@@ -96,11 +96,11 @@ ul{
   display: flex;
   justify-content: center;
   height: 100%;
-  padding: 30px;
+  padding: 10px;
   color: grey;
 }
 .menu a:hover{
-  background-color: rgba(128, 128, 128, 0.222);
+  background-color: rgba(128, 128, 128, 0.082);
 }
 .nav{
   max-height: 0;
@@ -110,7 +110,7 @@ ul{
 .hamb{
   cursor: pointer;
   float: right;
-  padding: 40px 20px;
+  padding: 25px 25px;
 }
 /* Style label tag */
 .hamb-line {
