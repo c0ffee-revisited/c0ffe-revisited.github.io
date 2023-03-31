@@ -41,7 +41,7 @@ a{
 ul{
   list-style: none;
   font-family: "Questrial";
-  font-weight: bolder;
+  font-weight: 700;
   font-size: 20pt;
   
   
@@ -70,8 +70,8 @@ ul{
   color: var(--white);
   font-family: "Questrial";
   color: black;
-  font-weight: 800;
-  font-size: 21pt;
+  font-weight: 700;
+  font-size: 20pt;
   margin-left: 10px;
   padding: 10px;
   
@@ -110,7 +110,7 @@ ul{
 .hamb{
   cursor: pointer;
   float: right;
-  padding: 25px 25px;
+  padding: 20px 20px;
 }
 /* Style label tag */
 .hamb-line {
@@ -118,7 +118,7 @@ ul{
   display: block;
   height: 2px;
   position: relative;
-  width: 24px;
+  width: 20px;
 }
 /* Style span tag */
 .hamb-line::before,
